@@ -607,23 +607,26 @@ strong {
 }
 
 .artists-image {
-  border-radius: var(--border-radius-medium);
+  border-radius: var(--border-radius-small);
   display: block;
   width: 100%;
 }
 
-.artists-thumb:hover .artists-hover {
+.artists-thumb .artists-hover {
   transform: translateY(0);
-  opacity: 1;
+  opacity: .8;
+  height: 1px;
 }
 
 .artists-hover {
-  background-color: var(--primary-color);
-  background-color: rgba(248, 203, 46, 0.75);
-  border-radius: var(--border-radius-medium);
+  /* background-color: var(--primary-color); */
+  background-color: rgba(82, 81, 78, 0.75);
+
+  border-bottom-left-radius: var(--border-radius-medium);
+  border-bottom-right-radius: var(--border-radius-medium);
   backdrop-filter: blur(5px) saturate(180%);
   -webkit-backdrop-filter: blur(5px) saturate(180%);
-  margin: 20px;
+  width: 350px;
   padding: 35px;
   transition: all 0.5s ease;
   transform: translateY(100%);
@@ -632,13 +635,21 @@ strong {
   right: 0;
   left: 0;
   opacity: 0;
+  justify-content: center;
+  align-items: center;
 }
 
-.artists-hover p strong {
+.artists-hover strong {
   color: var(--white-color);
   display: inline-block;
   min-width: 180px;
-  margin-right: 20px;
+  position: absolute;
+  top: 10%;
+}
+.artists-hover p {
+  color: var(--white-color);
+  display: inline-block;
+  top: 10%;
 }
 
 .artists-hover p a {
@@ -826,12 +837,44 @@ strong {
 
 .site-footer-top {
   background-color: var(--secondary-color);
-  background-image: url('../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg');
+  background-image: url('../images/musback.jpg');
   background-repeat: no-repeat;
   margin-bottom: 70px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+ /* Common styles for both .office-barrier-item and its child elements */
+.office-barrier-item {
+  display: inline-block;
+  width: 200px; /* Adjust as needed */
+  margin-right: 10px; /* Adjust as needed */
+  text-align: center; /* Center the content */
+}
+
+/* Styles for .office-barrier-image */
+.office-barrier-image {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 7px;
+}
+
+/* Styles for .office-barrier-text */
+.office-barrier-text .name {
+  padding: 5px; /* Add padding around the text */
+  color: white;
+  font-size: 15px;
+  font-weight: 550; /* Adjust font size as needed */
+}
+.office-barrier-text .role {
+  color: white;
+  font-size: 12px; /* Adjust font size as needed */
+}
+
+
+
+
+
 
 .site-footer-bottom {
   border-top: 1px solid #1f1c1c;
@@ -901,6 +944,16 @@ strong {
 
 .social-icon-link span:hover::before{
   animation: spinAround 2s linear infinite;
+}
+
+.artists-image-wrap{
+  height: 250px;
+  width: 350px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
 }
 
 @keyframes spinAround {
@@ -993,6 +1046,9 @@ strong {
   .logo-image {
       width: 40px; /* Adjust the width for mobile */
       margin-right: 5px; /* Adjust spacing for mobile */
+  }
+  .spb-f-c-s{
+    font-size: 14px;
   }
 }
 
