@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('honoring.json')
+    fetch('http://192.168.29.71:8000/honoring.json')
         .then(response => response.json())
         .then(data => {
             const honoringContainer = document.getElementById('honoring-container');

@@ -1,21 +1,15 @@
 [
     {
         "no" : "1",
-        "name": "Cyril M",
-        "role": "Secretary",
-        "imagePath": "images/officeBarrers/Cyril.jpg"
-    },
-    {
-        "no" : "7",
-        "name": "Murukan M",
-        "role": "President",
-        "imagePath": "images/officeBarrers/murukan.jpg"
+        "name": "S P Charan",
+        "role": "Patron",
+        "imagePath": "images/officeBarrers/charan.jpeg"
     },
     {
         "no" : "2",
-        "name": "Udayan N",
-        "role": "Treasurer",
-        "imagePath": "images/officeBarrers/udayan.jpg"
+        "name": "Bhavana Teacher ",
+        "role": "Patron",
+        "imagePath": "images/officeBarrers/bhavana_radhakrishnan.jpg"
     },
     {
         "no" : "3",
@@ -25,19 +19,29 @@
     },
     {
         "no" : "4",
-        "name": "Bhavana  ",
-        "role": "Patron",
-        "imagePath": "images/officeBarrers/bhavana_radhakrishnan.jpg"
+        "name": "Murukan M",
+        "role": "President",
+        "imagePath": "images/officeBarrers/murukan.jpg"
     },
     {
         "no" : "5",
-        "name": "S P Charan",
-        "role": "Patron",
-        "imagePath": "images/officeBarrers/charan.jpeg"
+        "name": "Cyril M",
+        "role": "Secretary",
+        "imagePath": "images/officeBarrers/Cyril.jpg"
     },
+   
     {
         "no" : "6",
-        "name": "A K Savad",
+        "name": "Udaya Chandran",
+        "role": "Treasurer",
+        "imagePath": "images/officeBarrers/udayan.jpg"
+    },
+   
+   
+   
+    {
+        "no" : "7",
+        "name": "Adv A K Savad",
         "role": "Legal Advisor",
         "imagePath": "images/officeBarrers/savad.jpg"
     }

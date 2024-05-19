@@ -1,6 +1,6 @@
 
     document.addEventListener('DOMContentLoaded', function() {
-        fetch('guests.json')
+        fetch('http://192.168.29.71:8000/guests.json')
             .then(response => response.json())
             .then(data => {
                 const guestContainer = document.getElementById('guest-container');
