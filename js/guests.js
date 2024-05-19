@@ -1,6 +1,6 @@
 
     document.addEventListener('DOMContentLoaded', function() {
-        fetch('http://192.168.29.71:8000/guests.json')
+        fetch('https://kiran-shabu.github.io/Legends-Voice/guests.json')
             .then(response => response.json())
             .then(data => {
                 const guestContainer = document.getElementById('guest-container');
