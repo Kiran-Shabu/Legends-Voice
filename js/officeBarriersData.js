@@ -1,7 +1,7 @@
 // Function to fetch JSON data
 async function fetchOfficeBarriersData() {
     try {
-        const response = await fetch('http://192.168.29.71:8000/officebarriers.json');
+        const response = await fetch('https://kiran-shabu.github.io/Legends-Voice/officebarriers.json');
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
