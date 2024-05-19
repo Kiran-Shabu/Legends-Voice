@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('http://192.168.29.71:8000/honoring.json')
+    fetch('https://kiran-shabu.github.io/Legends-Voice/honoring.json')
         .then(response => response.json())
         .then(data => {
             const honoringContainer = document.getElementById('honoring-container');
