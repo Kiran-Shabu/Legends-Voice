@@ -727,7 +727,80 @@ strong {
   }
 }
 
+/* Language-specific styling */
+.lang-en {
+  font-family: 'Arial', sans-serif; /* Ensure font family supports English */
+  font-size: 18px; /* Ensure font size consistency */
+  color: #333; /* Ensure text color consistency */
+  font-weight: normal; /* Ensure font weight consistency */
+  line-height: 1.5; /* Ensure line height consistency */
+  letter-spacing: 0.5px; /* Adjust letter spacing if necessary */
+  text-align: justify;
+}
+.lang-ml {
+  font-family: 'Noto Sans Malayalam', sans-serif; /* Use a font that supports Malayalam */
+  font-size: 18px; /* Ensure font size consistency */
+  color: #333; /* Ensure text color consistency */
+  font-weight: normal; /* Ensure font weight consistency */
+  line-height: 1.5; /* Ensure line height consistency */
+  letter-spacing: 0.5px; /* Adjust letter spacing if necessary */
 
+}
+
+.card-title.lang-en, .card-title.lang-ml {
+  font-family: 'Arial', sans-serif ,'Noto Sans Malayalam'; /* Ensure font family supports both languages */
+  font-size: 24px; /* Ensure font size consistency */
+  font-weight: bold; /* Ensure font weight consistency */
+  color: #333; /* Ensure text color consistency */
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .card-title.lang-en, .card-title.lang-ml {
+    font-size: 22px; /* Adjust font size for smaller screens */
+  }
+}
+
+
+
+/*---------------------------------------
+  honoring              
+-----------------------------------------*/
+
+.honoring-section {
+  background: url('../images/musback.jpg') no-repeat center center/cover;
+  padding: 60px 0;
+  color: #fff; /* Adjust text color if necessary for readability */
+}
+
+.honoring-section h6 {
+  margin-bottom: 40px;
+  font-size: medium;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.honoring-image-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.honoring-image {
+  width: 100px;    /* Set a fixed width */
+  height: 100px;   /* Set a fixed height */
+  object-fit: cover; /* Ensures the image covers the entire area, maintaining aspect ratio */
+  border-radius: 10px; /* Adjust the border-radius value as needed for rounded corners */
+}
+
+.honoring-thumb h5 {
+  margin-top: 10px;
+ 
+}
+/* Responsive styles for mobile screens */
+@media (max-width: 767px) {
+  .honoring-thumb {
+      width: 100%; /* Full width for small screens */
+  }
+}
 
 /*---------------------------------------
   PRICING              
@@ -845,7 +918,7 @@ strong {
 }
 
  /* Common styles for both .office-barrier-item and its child elements */
-.office-barrier-item {
+ .office-barrier-item {
   display: inline-block;
   width: 200px; /* Adjust as needed */
   margin-right: 10px; /* Adjust as needed */
@@ -858,7 +931,6 @@ strong {
   height: auto; /* Maintain aspect ratio */
   border-radius: 7px;
 }
-
 /* Styles for .office-barrier-text */
 .office-barrier-text .name {
   padding: 5px; /* Add padding around the text */
@@ -871,9 +943,19 @@ strong {
   font-size: 12px; /* Adjust font size as needed */
 }
 
-
-
-
+/* Responsive styles for mobile screens */
+@media (max-width: 767px) {
+  #office-barriers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .office-barrier-item {
+    width: calc(50% - 10px); /* 50% width minus margin */
+    margin: 5px; /* Adjust margin for spacing */
+  }
+}
 
 
 .site-footer-bottom {

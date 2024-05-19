@@ -15,7 +15,8 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arial&display=swap" rel="stylesheet">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -129,7 +130,7 @@ https://templatemo.com/tm-583-festava-live
                             </h5>
                         </div>
 
-                        <div class="social-share">
+                        <!-- <div class="social-share">
                             <ul class="social-icon d-flex align-items-center justify-content-center">
                                 <span class="text-white me-3">Share:</span>
 
@@ -151,7 +152,7 @@ https://templatemo.com/tm-583-festava-live
                                     </a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -216,117 +217,107 @@ https://templatemo.com/tm-583-festava-live
 
 <section class="schedule-section section-padding" id="section_3">
     <div class="container">
-
-
-
+        <div class="language-toggle text-center mb-4">
+            <button id="btn-en" class="btn btn-primary">English</button>
+            <button id="btn-ml" class="btn btn-secondary">മലയാളം</button>
+        </div>
         <div class="row justify-content-center"> 
-
-            <!-- <button id="language-toggle">Switch Language</button> -->
-            <!-- <-- Participant Instructions Card --> 
-
-
-             <div class="col-lg-5 col-md-6 col-sm-12 mb-4">
+            <div class="col-lg-5 col-md-6 col-sm-12 mb-4">
                 <div class="card shadow">
                     <div class="card-body">
-                        <div id="participant-instructions"></div>
-                        <h2 class="card-title text-center mb-4">Participant Instructions</h2>
+                        <h2 class="card-title text-center mb-4 lang-en">Participant Instructions</h2>
+                        <h2 class="card-title text-center mb-4 lang-ml" style="display: none;">പങ്കെടുക്കുന്നവർക്കുള്ള നിർദ്ദേശങ്ങൾ</h2>
                         <ul class="list-unstyled">
-                            <li class="mb-3">
-                                All participants can sing any song in any language that SPB has sung.
-                                Solo performances are allowed.
+                            <li class="mb-3 lang-en">
+                                All participants can sing any song in any language that SPB has sung. Solo performances are allowed.
                             </li>
-                            <li class="mb-3">
+                            <li class="mb-3 lang-ml" style="display: none;">
+                                SPB പാടിയ എല്ലാ ഭാഷാ ഗാനങ്ങളും പാടി മത്സരിക്കാം ഡ്യൂയറ്റ് സോങ്ങുകൾ സോളോ ആയി പാടാം.
+                            </li>
+                            <li class="mb-3 lang-en">
                                 Age limit for participants is 5 years and above.
                             </li>
-                            <li class="mb-3">
+                            <li class="mb-3 lang-ml" style="display: none;">
+                                മത്സരാർത്ഥികളുടെ പ്രായപരിധി 5 വയസ്സ് മുതൽ പ്രായം ഉള്ള എല്ലാവർക്കും
+                            </li>
+                            <li class="mb-3 lang-en">
                                 Both men and women can participate in the competition.
                             </li>
-                            <li class="mb-3">
+                            <li class="mb-3 lang-ml" style="display: none;">
+                                സ്ത്രീകൾക്കും പുരുഷന്മാർക്കും മത്സരത്തിൽ പങ്കെടുക്കാം
+                            </li>
+                            <li class="mb-3 lang-en">
                                 Participants must prepare and sing two songs that SPB has sung.
                             </li>
-                            <li class="mb-3">
+                            <li class="mb-3 lang-ml" style="display: none;">
+                                മത്സരത്തിൽ പങ്കെടുക്കുന്നവർ SPB പാടിയ രണ്ട് ഗാനങ്ങൾ പഠിച്ചിരിക്കണം.
+                            </li>
+                            <li class="mb-3 lang-en">
                                 Karaoke tracks for the chosen songs should be submitted. 
                             </li>
-                            <li class="mb-3">
+                            <li class="mb-3 lang-ml" style="display: none;">
+                                നിങ്ങൾ മത്സരിക്കുവാൻ ആഗ്രഹിക്കുന്ന രണ്ടു ഗാനങ്ങളുടെയും വ്യക്തതയോടു കൂടിയ കരോക്കെ കയ്യിൽ കരുതേണ്ടതാണ്
+                            </li>
+                            <li class="mb-3 lang-en">
                                 Participants cannot refer to the lyrics while singing.
                             </li>
-                            <li class="mb-3">
-                                Judges will select winners in the first round, and the final decision
-                                will be made in the second round.
+                            <li class="mb-3 lang-ml" style="display: none;">
+                                പാട്ടിന്റെ വരികൾ നോക്കി പാടുവാൻ അനുവദനീയം അല്ല.
                             </li>
-                           
-                            <li class="mb-3">
-                                The grand finale and award
-                               ceremony will be held on July 21st at 5:00 PM at Kollam C. Kesavan
-                               Memorial Town Hall. 
-                               <br>
+                            <li class="mb-3 lang-en">
+                                Judges will select winners in the first round, and the final decision will be made in the second round.
                             </li>
-                            
-                           
+                            <li class="mb-3 lang-ml" style="display: none;">
+                                ജഡ്ജസ് ഒന്നാം റൗണ്ടിൽ തിരഞ്ഞെടുക്കുന്നവരെ രണ്ടാം റൗണ്ടിലൂടെ പാടിച്ചു 1,2,3 മത്സര വിജയികളെ. കണ്ടെത്തും ജഡ്ജറ്റ്സിന്റെ തീരുമാനം അന്തിമം ആയിരിക്കും.
+                            </li>
+                            <li class="mb-3 lang-en">
+                                The grand finale and award ceremony will be held on July 21st at 5:00 PM at Kollam C. Kesavan Memorial Town Hall.
+                            </li>
+                            <li class="mb-3 lang-ml" style="display: none;">
+                                മത്സരവിജയികളുടെ സമ്മാനദാനം ഗ്രാൻഡ്ഫിനാലെ ജൂലൈ ഇരുപത്തിയൊന്നാം തീയതി വൈകുന്നേരം 5 മണിക്ക് കൊല്ലം സി കേശവൻ മെമ്മോറിയൽ ടൗൺഹാളിൽ നടക്കുന്ന SPB അവാർഡ് നൈറ്റ് വേദിയിൽ വച്ച് പ്രശസ്ത സംഗീത സംവിധായകൻ ശ്രീ ശരത് നിർവഹിക്കുന്നു.
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div> 
 
             <!-- Registration Instructions Card -->
-
-
-
-             <div class="col-lg-5 col-md-6 col-sm-12 mb-4">
+            <div class="col-lg-5 col-md-6 col-sm-12 mb-4">
                 <div class="card shadow">
                     <div class="card-body">
-
-
-                        <!-- <div id="participant-instructions"></div> -->
-
-
-                        <h2 class="card-title text-center mb-4">Registration Details</h2>
+                        <h2 class="card-title text-center mb-4 lang-en">Registration Details</h2>                       
+                        <h2 class="card-title text-center mb-4 lang-ml" style="display: none;">രജിസ്ട്രേഷൻ വിശദാംശങ്ങൾ</h2>
                         <ul class="list-unstyled">
-                            <li class="mb-3">
-                                Registration fee: ₹1000/
-                            </li>
-                            <li class="mb-3">
-                                 Early registration (until the end of May): ₹800
-                            </li>
-                            <li class="mb-3">
-                                From June 1st to June 15th: ₹900/-
-                            </li>
-                            <li class="mb-3">
-                                From June 16th to June 30th: ₹1000/-
-                            </li>
-                            <li class="mb-3">
-                                Registration can be done through QR code or account number
-                            </li>
-                            <li class="mb-3">
-                                 Lunch , tea and snacks will be arranged exclusively for the contestants
-                            </li>
-                            <li class="mb-3">
-                                First prize: ₹25,001/- and a certificate
-                            </li>
-                            <li class="mb-3">
-                                 Second prize: ₹15,001/- and a certificate
-                            </li>
-                            <li class="mb-3">
-                                  Third prize: ₹10,001/- and a certificate
-                            </li>
-                            <li class="mb-3">
-                                    Winners will also get a golden opportunity in the fields of cinema,
-                                television, or albums.
-                            </li>
-                          
-                      
-                              <li class="mb-3">
-                                     Last date for registration is 30 June 2024
-                              </li>
-                           
+                            <li class="mb-3 lang-en">Registration fee: ₹1000/-</li>
+                            <li class="mb-3 lang-ml" style="display: none;">രജിസ്ട്രേഷൻ ഫീസ്: ₹1000/-</li>
+                            <li class="mb-3 lang-en">Early registration (until the end of May): ₹800</li>
+                            <li class="mb-3 lang-ml" style="display: none;">മെയ് മാസം അവസാനം വരെ രജിസ്റ്റർ ചെയ്യുന്നവർക്ക് 200/- രൂപ ഇളവോടുകൂടി രജിസ്റ്റർ ചെയ്യാവുന്നതാണ് ( ₹800)</li>
+                            <li class="mb-3 lang-en">From June 1st to June 15th: ₹900/-</li> 
+                            <li class="mb-3 lang-ml" style="display: none;">ജൂൺ ഒന്നാം തീയതി മുതൽ 15.06-2024 തീയതി വരെ ഇളവോടുകൂടി രജിസ്ട്രേഷൻ 900 രൂപ</li>
+                            <li class="mb-3 lang-en">From June 16th to June 30th: ₹1000/-</li>
+                            <li class="mb-3 lang-ml" style="display: none;">16-06-2024 മുതൽ 30 വരെ രജിസ്ട്രേഷൻ ഫീ 1000 രൂപ</li>
+                            <li class="mb-3 lang-en">Registration can be done through QR code or account number</li>
+                            <li class="mb-3 lang-ml" style="display: none;">രജിസ്ട്രേഷൻ QR കോട് വഴിയോ അക്കൗണ്ട് നമ്പർ മുഖേനയോ ചെയ്യാവുന്നതാണ്</li>
+                            <li class="mb-3 lang-en">Lunch, tea and snacks will be arranged exclusively for the contestants</li>
+                            <li class="mb-3 lang-ml" style="display: none;">മത്സരാർത്ഥികൾക് മാത്രമായി ഉച്ചഭക്ഷണവും, ടി ആൻഡ് സ്നാക്സും ക്രമീകരിക്കുന്നതായിരിക്കും</li>
+                            <li class="mb-3 lang-en">First prize: ₹25,001/- and a certificate</li>
+                            <li class="mb-3 lang-ml" style="display: none;">ഒന്നാം സമ്മാനം 25001/- രൂപയും പ്രശസ്തി പത്രവും</li>
+                            <li class="mb-3 lang-en">Second prize: ₹15,001/- and a certificate</li>
+                            <li class="mb-3 lang-ml" style="display: none;">രണ്ടാം സമ്മാനം 15001/- രൂപയും പ്രശസ്തി പത്രവും</li>
+                            <li class="mb-3 lang-en">Third prize: ₹10,001/- and a certificate</li>
+                            <li class="mb-3 lang-ml" style="display: none;">മൂന്നാം സമ്മാനം 10001/- രൂപയും പ്രശസ്തി പത്രവും</li>
+                            <li class="mb-3 lang-en">Winners will also get a golden opportunity in the fields of cinema, television, or albums.</li>
+                            <li class="mb-3 lang-ml" style="display: none;">മത്സര വിജയികൾക് ഒരു സുവർണ്ണ അവസരം കൂടി, ചലച്ചിത്രം/ ടെലിവിഷൻ/ ആൽബം, എന്നീ മേഖലകളിൽ പാടുവാനുള്ള അവസരം ഒരുക്കുന്നതാണ്</li>
+                            <li class="mb-3 lang-en">Last date for registration is 30 June 2024</li>
+                            <li class="mb-3 lang-ml" style="display: none;">രജിസ്‌ട്രേഷനുള്ള അവസാന തീയതി 2024 ജൂൺ 30</li>
                         </ul>
                     </div>
                 </div>
             </div>
-
-         </div>
+        </div>
     </div>
 </section> 
+
 <!-- -----------------------instructions end----------------- -->  
 
 <!-- --------------------booking section start-------------------- -->
@@ -346,7 +337,7 @@ https://templatemo.com/tm-583-festava-live
 
                             <p>Season 2</p>
                         </div>
-                        <img src="./images/competition.jpg" alt="Logo" class="ms-auto" style="max-width: 100px;">
+                        <img src="./images/competition.jpg" alt="Logo" class="ms-auto" style="max-width: 150px;">
                         <!-- <p class="pricing-tag ms-auto">Save up to <span>50%</span></h2> -->
                     </div>
 
@@ -378,7 +369,7 @@ https://templatemo.com/tm-583-festava-live
                             <p>Festival of SPB songs</p>
                             
                         </div>
-                        <img src="./images/awardnight.jpg" alt="Logo" class="ms-auto" style="max-width: 100px;">
+                        <img src="./images/awardnight.jpg" alt="Logo" class="ms-auto" style="max-width: 150px;">
                     </div>
 
                     <ul class="pricing-list mt-3">
@@ -404,7 +395,23 @@ https://templatemo.com/tm-583-festava-live
     </div>
 </section>
 <!-- --------------------booking section end-------------------- -->
+<!-- ----------------------------- honoring  section start ---------------------------- -->
+<section class="honoring-section section-padding" id="section_5">
+    <div class="container">  
+        <!-- Add new section for displaying images -->
+        <div class="row justify-content-center">
+            <div class="col">
+                <h6 class="text-white">Kollam SPB foundation honouring the following musicians for their valuable contribution to the music community during the SPB Award ceremony on 21.7.2024
+                </h6>
+                <div class="row justify-content-center" id="honoring-container">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+
+<!-- -----------------------honoring section end------------------------- -->
 
 
 <!-- ----------------------------- Guests section start ---------------------------- -->
@@ -628,6 +635,8 @@ T e m p l a t e M o
     <script src="js/custom.js"></script>
     <script src="js/guests.js"></script>
     <script src="js/officeBarriersData.js"></script>
+    <script src="js/translation.js"></script>
+    <script src="js/honoring.js"></script>
 </body>
 
 </html>
